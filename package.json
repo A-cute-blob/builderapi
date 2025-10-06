@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "APK Builder backend for RevShell project",
   "main": "server.js",
- "scripts": {
+  "scripts": {
     "build": "echo Build complete",
     "start": "netlify dev"
   },
@@ -12,17 +12,14 @@
     "adm-zip": "^0.5.10",
     "multer": "^1.4.5-lts.1",
     "cors": "^2.8.5",
-    "serverless-http": "^2.8.0",
-    
-
+    "serverless-http": "^2.8.0"
   },
   "engines": {
     "node": "22.x"
   },
   "devDependencies": {
     "netlify-cli": "^14.0.0"
-  }
-
+  },
   "author": "",
   "license": "ISC"
 }
